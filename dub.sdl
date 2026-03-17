@@ -1,0 +1,9 @@
+name "lwml-serial"
+description "A lightweight serialization library for D-lang.  Currently supports binary-serialization, but more formats may be added in the future.  "
+license "LGPL-2.1"
+authors "CircuitCoder4696"   //   Sorry, I am not revealing my real name, I'm both new to the D programming code club, and I currently don't know its members.  
+exportPath "src/lwml"
+sourcePath "src"
+targetType "staticLibrary"
+targetName "libSerial"
+dependency "lwml-core"
